@@ -29,8 +29,22 @@
             max-width: 80%; /* Evita que o texto encoste nas bordas em telas menores */
         }
 
+        /* NOVO: Estilização da sua foto em PNG */
+        .profile-photo {
+            width: 140px;
+            /* Tamanho ideal para visualização */
+            height: 140px;
+            border-radius: 50%;
+            /* Deixa a foto redonda (se ela for quadrada) */
+            object-fit: cover;
+            /* Garante que a imagem não fique distorcida */
+            margin-bottom: 1.5rem;
+            /* Espaço entre a foto e a frase "Salve, salve!" */
+        }
+
         h1 {
             font-size: 2.5rem;
+            margin-top: 0;         /* Zera a margem superior para colar melhor com a foto */
             margin-bottom: 2rem; /* Cria o espaço de "duas linhas" abaixo da frase */
         }
 
@@ -55,6 +69,10 @@
 <body>
 
     <div class="content">
+
+        <!-- Adicione sua foto aqui -->
+        <img src="images/Podcast Saravando logotipo completo cortado FT.png" alt="Podcast Saravando" class="profile-photo">
+
         <h1>Salve, salve! Esta página está em manutenção!</h1>
         <p class="subtitle">Em breve, novidades.</p>
     </div>
