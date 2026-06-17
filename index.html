@@ -1,78 +1,20 @@
 <!DOCTYPE html>
 <html lang="pt-BR">
+
 <head>
     <meta charset="UTF-8">
     <title>Podcast Saravando</title>
     <link rel="icon" type="image/png" href="images/Podcast Saravando logotipo completo cortado FT.png">
-    <style>
-        /* Remove as margens padrão do navegador e garante que o body ocupe a tela toda */
-        body {
-            margin: 0;
-            height: 100vh; /* 100% da altura da tela (Viewport Height) */
-            display: flex;
-            flex-direction: column; /* Alinha os elementos verticalmente */
-            justify-content: center; /* Centraliza verticalmente o conteúdo principal */
-            align-items: center; /* Centraliza horizontalmente */
-            text-align: center; /* Garante que o texto quebre linhas centralizado */
-            font-family: sans-serif; /* Apenas um toque estético para o texto não ficar com a fonte padrão */
-            background-color: #0f0f0f; /* Cor escura de fundo baseada no seu print */
-            color: #fff; /* Texto principal em branco */
-        }
-
-        /* Container para o conteúdo do meio, permitindo empurrar o rodapé para baixo */
-        .content {
-            flex: 1;
-            display: flex;
-            flex-direction: column;
-            justify-content: center;
-            align-items: center;
-            max-width: 80%; /* Evita que o texto encoste nas bordas em telas menores */
-        }
-
-        /* NOVO: Estilização da sua foto em PNG */
-        .profile-photo {
-            width: 140px;
-            /* Tamanho ideal para visualização */
-            height: 140px;
-            border-radius: 50%;
-            /* Deixa a foto redonda (se ela for quadrada) */
-            object-fit: cover;
-            /* Garante que a imagem não fique distorcida */
-            margin-bottom: 1.5rem;
-            /* Espaço entre a foto e a frase "Salve, salve!" */
-        }
-
-        h1 {
-            font-size: 2.5rem;
-            margin-top: 0;         /* Zera a margem superior para colar melhor com a foto */
-            margin-bottom: 2rem; /* Cria o espaço de "duas linhas" abaixo da frase */
-        }
-
-        .subtitle {
-            font-size: 1.5rem; /* Fonte um pouco menor que o h1 */
-            color: #ccc; /* Tom de cinza claro para dar destaque menor */
-            margin: 0;
-        }
-
-        /* Estilização do rodapé */
-        footer {
-            padding-bottom: 2rem; /* Espaço em relação à borda inferior da tela */
-            font-size: 0.9rem; /* Fonte menor para o rodapé */
-            color: #888; /* Tom de cinza mais escuro para o rodapé */
-        }
-
-        footer p {
-            margin: 0.3rem 0; /* Pequeno espaçamento entre o nome e o e-mail */
-        }
-    </style>
+    <link rel="stylesheet" href="css/style.css">
 </head>
+
 <body>
 
     <div class="content">
-
         <!-- Adicione sua foto aqui -->
         <img src="images/Podcast Saravando logotipo completo cortado FT.png" alt="Podcast Saravando" class="profile-photo">
 
+        <!-- Texto centralizado na página -->      
         <h1>Salve, salve! Esta página está em manutenção!</h1>
         <p class="subtitle">Em breve, novidades.</p>
     </div>
@@ -83,4 +25,5 @@
     </footer>
 
 </body>
+
 </html>
