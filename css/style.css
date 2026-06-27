@@ -11,10 +11,11 @@ body {
     font-family: sans-serif;
     background-color: #0f0f0f;
     color: #fff;
+    gap: 3rem;               /* Cria uma separação elegante entre o .content e o footer */
 }
 
 .content {
-    flex: 1;
+    /* flex: 1;  <-- REMOVIDO para não empurrar o footer */
     display: flex;
     flex-direction: column;
     justify-content: center;
@@ -51,7 +52,7 @@ h1 {
 }
 
 footer {
-    padding-bottom: 2rem;
+    /* padding-bottom: 2rem; <-- Opcional: pode manter ou remover, o gap do body já resolve o visual */
     font-size: 0.9rem;
     color: #888;
 }
